@@ -26,3 +26,15 @@ PrimaryANoChildren.args = {
 };
 
 export const PrimaryANoArgs = Template.bind({});
+
+export const SecondaryA = Template.bind({});
+SecondaryA.args = {
+  variantColor: "blue",
+  children: "Secondary Arg",
+};
+
+export const DangerA = Template.bind({});
+DangerA.args = {
+  variantColor: "red",
+  children: "Danger Arg",
+};
